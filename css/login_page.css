@@ -1,0 +1,126 @@
+    * {
+        font-family: sans-serif, 'poppins';
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(120deg, rgb(228, 123, 97), #3b2a4b);
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 60px;
+    }
+    
+    .center img {
+        padding: 0;
+        position: relative;
+        left: 150px;
+        top: 10px;
+    }
+    
+    .center h1 {
+        text-align: center;
+        font-weight: 800;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid rgb(75, 74, 74);
+    }
+    
+    .center .text_field {
+        position: relative;
+        left: 50px;
+        margin: 30px 0;
+    }
+    
+    .center .text_field input {
+        position: relative;
+        width: 69%;
+        left: 1px;
+        padding: 0 5px;
+        height: 25px;
+        outline: none;
+        outline: black;
+    }
+    
+    .text_field label {
+        color: rgb(113, 111, 111);
+        font-weight: 700;
+    }
+    
+    .pass {
+        position: relative;
+        bottom: 30px;
+        left: 220px;
+        transform: translatey(-50% -30%);
+        margin: -5px 0 20px 5px;
+        color: rgb(88, 84, 84);
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .pass:hover {
+        text-decoration: underline;
+        color: #d38566;
+    }
+    
+    .me {
+        position: relative;
+        padding-left: 44px;
+        transform: translatey(-50% -30%);
+        margin: -5px 0 20px 5px;
+        color: rgb(88, 84, 84);
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .me:hover {
+        text-decoration: none;
+        color: #090908;
+    }
+    
+    input[type="submit"] {
+        position: relative;
+        left: 17%;
+        cursor: pointer;
+        color: rgb(251, 247, 243);
+        font-weight: 700;
+        width: 250px;
+        height: 40px;
+        border: 1px solid rgb(251, 251, 255);
+        background: rgb(19, 15, 15);
+        border-radius: 25px;
+        outline: none;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: rgb(181, 73, 73);
+        border-color: transparent;
+        color: rgb(8, 0, 0);
+        transition: .4s;
+    }
+    
+    .cancel p {
+        color: rgb(83, 80, 78);
+        font-size: 14px;
+        font-weight: 700;
+        position: relative;
+        left: 69%;
+        padding: 20px;
+    }
+    
+    .cancel p:hover {
+        color: #a21111;
+    }
+    
+    .cancel {
+        cursor: pointer;
+        text-decoration: none;
+    }

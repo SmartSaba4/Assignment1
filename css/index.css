@@ -1,0 +1,66 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: hue-rotate(90deg);
+    background-color: rgb(178, 141, 74);
+}
+
+.center img {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    position: relative;
+    color: rgb(6, 1, 1);
+}
+
+.center h1 {
+    position: relative;
+    color: rgb(10, 3, 3);
+    font-weight: 900;
+    font-size: 60px;
+    left: 170px;
+    bottom: 28px;
+}
+
+.button {
+    position: relative;
+    background-color: rgb(46, 49, 49);
+    border-radius: 30px;
+    height: 60px;
+    width: 250px;
+    left: 250px;
+}
+
+.button:hover {
+    background-color: rgb(217, 151, 27);
+    color: black;
+    transition: .4s;
+}
+
+.button p {
+    top: 11px;
+    color: rgb(254, 247, 247);
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    left: 75px;
+}
+
+.button a {
+    cursor: pointer;
+    text-decoration: none;
+}
